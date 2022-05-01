@@ -6,7 +6,7 @@ describe( 'Unit test for class FizzBuzz', () => {
 
         const explorer = { name: "Explorer1", score: 15 }
 
-        expect( FizzBuzz.applyValidationInExplorer( explorer ) ).toBeUndefined()
+        expect( FizzBuzz.applyValidationInExplorer( explorer ) ).not.toBeUndefined()
 
     } )
 
