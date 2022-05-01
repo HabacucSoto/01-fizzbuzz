@@ -10,12 +10,12 @@ describe( "Unit test for class ExplorerController", () => {
 
     } );
 
-    // test( "2) Get explorers usernames by mission", () => {
+    test( "2) Get explorers usernames by mission", () => {
 
-    //     const res = ExplorerController.getExplorersUsernamesByMission( "node" );
+        const res = ExplorerController.getExplorersUsernamesByMission( "node" );
 
-    //     expect( Array.isArray( res ) ).toBe( true );
+        expect( Array.isArray( res ) ).toBe( true );
 
-    // } );
+    } );
 
 } );
