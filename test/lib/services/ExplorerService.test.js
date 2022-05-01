@@ -20,4 +20,12 @@ describe( 'Unit test for class ExplorerService', () => {
 
     } ) 
 
+    test( '3) Explorers usernames by mission', () => {
+
+        const res = ExplorerService.getExplorersUsernamesByMission( explorers, 'node' )
+        
+        expect( Array.isArray( explorers ) ).toBe( true )
+
+    } )
+
 } )
