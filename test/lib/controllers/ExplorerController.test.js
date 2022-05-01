@@ -18,4 +18,12 @@ describe( "Unit test for class ExplorerController", () => {
 
     } );
 
+    test( "3) Get explorers amount by mission", () => {
+
+        const res = ExplorerController.getExplorersAmountByMission( "node" );
+
+        expect( typeof res ).toBe( "number" );
+
+    } );
+
 } );
