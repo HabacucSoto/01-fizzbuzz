@@ -26,4 +26,12 @@ describe( "Unit test for class ExplorerController", () => {
 
     } );
 
+    test( "4) Get fizzbuzz validation by number", () => {
+
+        const res = ExplorerController.getFizzBuzzValidationByNumber( 15 );
+
+        expect( res ).toBe( "FizzBuzz" );
+
+    } );
+
 } );
