@@ -28,4 +28,12 @@ describe( "Unit test for class ExplorerService", () => {
 
     } );
 
+    test( "3) Explorers names by mission", () => {
+
+        const res = ExplorerService.getExplorersNamesByMission( explorers, "node" );
+        
+        expect( Array.isArray( res ) ).toBe( true );
+
+    } );
+
 } );
