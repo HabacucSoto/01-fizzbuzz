@@ -34,4 +34,12 @@ describe( "Unit test for class ExplorerController", () => {
 
     } );
 
+    test( "5) Get explorers names by mission", () => {
+
+        const res = ExplorerController.getExplorersNamesByMission( "node" );
+
+        expect( Array.isArray( res ) ).toBe( true );
+
+    } );
+
 } );
